@@ -16,8 +16,8 @@ project:
   automation_type: "ansible"
   description: "A hands on lab for installing keycloak on openshift 4.21. One module lab for 30 mins for tech sales staff with intermediate experience."
   # content_reviewer_email and infra_reviewer_email are assigned by the RHDP team — not set by the author
-  jira_ticket: ""
-  workflow_id: ""
+  jira_ticket: "RHDPCD-1314"
+  workflow_id: "fa14e414-a5ae-4a43-a54d-9cd1be3864c0"
 
 spec:
   title: ""
