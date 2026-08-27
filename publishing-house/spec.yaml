@@ -124,7 +124,7 @@ approval_checklist:
     rejections:
     - id: cbac8345-985b-445e-aef8-14287490f4ca
       text: this is just a test, you can submit again
-      resolved: false
+      resolved: true
       reviewer: treddy@redhat.com
       timestamp: '2026-08-27T04:45:00.240878+00:00'
   infra:
