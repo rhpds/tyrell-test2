@@ -21,8 +21,15 @@ project:
 
 spec:
   title: "Installing the Keycloak Operator on OpenShift"
-  learning_objectives: []
-  modules: []              # [{id, title, duration_min}] — written by intake Phase 4; id is stable (e.g. module-01)
+  learning_objectives:
+    - "Install the Red Hat build of Keycloak operator from OperatorHub on OpenShift 4.21"
+    - "Verify a successful operator deployment via the OpenShift web console"
+  modules:
+    - id: module-01
+      title: "Installing the Keycloak Operator"
+      duration_min: 30
+      status: not_started
+  # [{id, title, duration_min}] — written by intake Phase 4; id is stable (e.g. module-01)
   duration_hours: 0.5
   audience: "intermediate"
   environment:
@@ -79,7 +86,7 @@ tracking:
 approval_checklist:
 
   content:
-    prerequisites_verifiable: null
+    prerequisites_verifiable: false
     assessment_strategy: ""
     catalog_gap: ""
     design_overview: ""
