@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tyrell-test2
+  title: tyrell-test2
+  description: A hands on lab for installing keycloak on openshift 4.21. One
+    module lab for 30 mins for tech sales staff with intermediate experience.
+  annotations:
+    ph.rhdp.io/content-type: lab
+    ph.rhdp.io/deployment-mode: rhdp_published
+    ph.rhdp.io/github-user: treddy08
+    ph.rhdp.io/owner: treddy@redhat.com
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: rhpds/tyrell-test2
+    ph.rhdp.io/created-at: 2026-08-27T03:17:19.475Z
+  tags:
+    - publishing-house
+    - lab
+    - rhdp-published
+  links:
+    - url: https://github.com/rhpds/tyrell-test2
+      title: Repository
+      icon: github
+    - url: https://devspaces.apps.ocpv-infra01.dal12.infra.demo.redhat.com#https://github.com/rhpds/tyrell-test2
+      title: Open in DevSpaces
+      icon: catalog
+    - url: https://central-api-publishing-house.apps.ocpv-infra01.dal12.infra.demo.redhat.com
+      title: Central
+      icon: dashboard
+spec:
+  type: content
+  lifecycle: experimental
+  owner: rhdp-team
+  system: publishing-house
