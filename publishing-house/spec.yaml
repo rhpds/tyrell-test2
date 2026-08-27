@@ -129,7 +129,7 @@ approval_checklist:
       timestamp: '2026-08-27T04:45:00.240878+00:00'
     - id: b3ccf05f-6e77-431f-8b69-dbffd43e6df0
       text: another test
-      resolved: false
+      resolved: true
       reviewer: treddy@redhat.com
       timestamp: '2026-08-27T05:30:20.828740+00:00'
   infra:
