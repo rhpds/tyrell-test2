@@ -1,0 +1,9 @@
+site_name: Installing the Keycloak Operator on OpenShift
+docs_dir: publishing-house/spec
+nav:
+- Home: index.md
+- Design Spec: design.md
+- Modules:
+  - Module 1 - Installing Keycloak Operator: modules/module-01-installing-keycloak-operator.md
+plugins:
+- techdocs-core

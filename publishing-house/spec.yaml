@@ -89,8 +89,7 @@ approval_checklist:
 
   content:
     prerequisites_verifiable: false
-    assessment_strategy: ""
-    catalog_gap: ""
+    assessment_strategy: "Trust-based — participants visually confirm the 'Succeeded' operator status in the Installed Operators view of the OpenShift web console."
     design_overview: "This 30-minute hands-on lab is designed for intermediate tech sales staff who need to demonstrate the Keycloak operator installation workflow to customers. Participants use the OpenShift web console to locate, install, and verify the Red Hat build of Keycloak operator from OperatorHub on OCP 4.21. The lab fills a gap in the catalog — no existing content teaches this as a standalone, sales-oriented exercise."
     module_summaries:
       - title: "Installing the Keycloak Operator"
