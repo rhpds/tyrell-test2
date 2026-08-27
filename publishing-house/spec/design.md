@@ -50,22 +50,22 @@ Intermediate
 
 ## Environment
 
-**Learner view:** TBD — confirmed in infrastructure phase
+**Learner view:** Participants receive access to a shared OpenShift 4.21 multinode cluster via the OpenShift web console. The cluster is pre-provisioned with standard operators and authentication configured. Participants work within their own namespace to install and verify the Keycloak operator.
 
-**Automation needed:** TBD — confirmed in infrastructure phase
+**Automation needed:** Yes — cluster provisioning, namespace setup, and user authentication must be automated before the lab starts.
 
 ## Infrastructure Requirements
 
-- **Cloud provider:** TBD — confirmed in infrastructure phase
-- **Cluster type:** TBD — confirmed in infrastructure phase
-- **OCP version:** TBD — confirmed in infrastructure phase
-- **Topology:** TBD — confirmed in infrastructure phase
-- **Sizing:** TBD — confirmed in infrastructure phase
-- **Automation approach:** TBD — confirmed in infrastructure phase
-- **AI/MaaS:** TBD — confirmed in infrastructure phase
-- **External services:** TBD — confirmed in infrastructure phase
-- **AAP version:** TBD — confirmed in infrastructure phase
-- **Non-GA products:** TBD — confirmed in infrastructure phase
+- **Cloud provider:** CNV
+- **Cluster type:** Multinode
+- **OCP version:** 4.21
+- **Topology:** Shared cluster (max 30 concurrent users)
+- **Sizing:** 3 control plane (16 vCPU, 64GB RAM), 2 workers (8 vCPU, 32GB RAM, 100GB disk)
+- **Automation approach:** Ansible
+- **AI/MaaS:** None
+- **External services:** registry.redhat.io, quay.io
+- **AAP version:** N/A
+- **Non-GA products:** None (all products are GA)
 
 ## Assessment Strategy (Optional)
 
