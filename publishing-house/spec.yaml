@@ -91,8 +91,35 @@ approval_checklist:
     catalog_gap: ""
     design_overview: ""
     module_summaries: []
-    rcars_overlap_pct: null
-    rcars_top_matches: []
+    rcars_overlap_pct: 43
+    rcars_top_matches:
+      - title: "OpenShift Ops Day Roadshow"
+        ci_name: "published.openshift-days-ops-track.prod"
+        url: "https://catalog.demo.redhat.com/catalog?item=published.openshift-days-ops-track.prod"
+        relevance_score: 43
+        why_it_fits: "Includes a dedicated 'OpenID Connect Authentication with Keycloak' module covering Keycloak realm and client configuration as an OIDC identity provider on OpenShift."
+        workloads:
+          - role: "ocp4_workload_cert_manager"
+            collection: "agnosticd.core_workloads"
+          - role: "ocp4_workload_external_odf"
+            collection: "agnosticd.core_workloads"
+      - title: "LB1464: Unifying DevSecOps: Secure, Standardized Application Delivery Across Containers (CNV)"
+        ci_name: "summit-2026.lb1464-unified-devsecops-delivery-cnv.prod"
+        url: "https://catalog.demo.redhat.com/catalog?item=summit-2026.lb1464-unified-devsecops-delivery-cnv.prod"
+        relevance_score: 36
+        why_it_fits: "Includes Red Hat build of Keycloak as a supporting OIDC identity integration component, but focus is on DevSecOps supply chain security — not Keycloak operator installation."
+        workloads:
+          - role: "ocp4_workload_authentication_keycloak"
+            collection: "agnosticd.core_workloads"
+      - title: "Platform Engineering Roadshow"
+        ci_name: "published.platform-engineering-workshop.prod"
+        url: "https://catalog.demo.redhat.com/catalog?item=published.platform-engineering-workshop.prod"
+        relevance_score: 35
+        why_it_fits: "Includes Red Hat build of Keycloak as an identity provider for Developer Hub, but targets platform engineers and does not teach Keycloak operator installation from OperatorHub."
+        workloads:
+          - role: "ocp4_workload_platform_engineering_workshop"
+            collection: "rhdp.workshop"
+    catalog_gap: "No existing catalog item teaches installing the Keycloak operator from OperatorHub as a standalone objective for tech sales staff. Existing Keycloak content appears as a secondary component in longer, advanced platform engineering workshops — not as a focused 30-minute lab for an intermediate sales audience."
     rejections: []
 
   infra:
